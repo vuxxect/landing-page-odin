@@ -8,9 +8,9 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <section class="hero-block">
+    <section class="header-block">
 
-        <header class="header-block">
+        <header class="header">
             <div class="logo">Header Logo</div>
             <ul class="header-links">
                 <li><a href="">header link one</a></li>
@@ -19,21 +19,22 @@
             </ul>
         </header>
 
-        <div class="hero-text">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title.
-                It's a smaller font and the color is lower contrast</p>
-            <button class="sign-button">Sign up</button>
-        </div>
-
-        <div class="hero-image">
-            <p>this is a placeholder for an image</p>
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title.
+                    It's a smaller font and the color is lower contrast</p>
+                <button class="sign-button">Sign up</button>
+            </div>
+            <div class="hero-image">
+                <p>this is a placeholder for an image</p>
+            </div>
         </div>
 
     </section>
 
     <main class="main-block">
-        <section class="information-block">
+        <section class="information-container">
             <div class="info-text">
                 <h2>Some random information.</h2>
             </div>
@@ -58,16 +59,20 @@
             </ul>
         </section>
 
-        <section class="quote-block">
-            <p>This is an inspiring quote, or a testimonial from a customer. 
-                Maybe it's just filling up space, or maybe people will actually read it. 
-                Who knows? All I know is that it looks nice.</p>
+        <section class="quote-container">
+            <quote><em>
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually read it.
+                Who knows? All I know is that it looks nice.
+            </em></quote>
             <p>-Thor, God of Thunder</p>
         </section>
 
-        <section class="sign-block">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product by clicking that button right over there!</p>
+        <section class="sign-container">
+            <div class="sign-text">
+                <p class="text">Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
             <button class="sign-button">Sign up</button>
         </section>
     </main>
